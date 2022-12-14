@@ -1,0 +1,206 @@
+:root {
+  --padding: 60px;
+}
+
+body * {
+  font-family: "Tahoma", sans-serif;
+}
+
+h5 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+#card {
+  width: 1100px;
+  height: 700px;
+  position: relative;
+  background-size: cover;
+}
+
+#overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+#logo {
+  position: absolute;
+  top: var(--padding);
+  left: var(--padding);
+  width: 250px;
+}
+
+#qr-code {
+  position: absolute;
+  right: var(--padding);
+  top: var(--padding);
+  border: 15px solid white;
+}
+
+#name {
+  position: absolute;
+  margin: 0;
+  bottom: calc(var(--padding) - 10px);
+  left: calc(var(--padding) + 5px);
+  font-family: "Kanit", sans-serif;
+  font-size: 85px;
+  font-weight: 500;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+.hack {
+  visibility: hidden;
+}
+
+#form-card {
+  margin: 20px 0;
+}
+
+#background-select {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0 0;
+}
+
+#background-select img {
+  width: 200px;
+  border: 1px solid black;
+  margin: 0 8px 8px 0;
+  opacity: 0.75;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+#background-select img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*đổi ảnh nền*/
+#bgdetails {
+  display: flex;
+  margin-top: 20px;
+}
+
+#bgdetails .bg-image {
+  width: 100%;
+}
+
+#bgdetails .bg-image #bgname {
+  position: absolute;
+  font-size: 50px;
+  color:rgb(252, 250, 250);
+  transform: translate(70px,130px);
+}
+
+#bgdetails .bg-image #bgid{
+  position: absolute;
+  font-size: 50px;
+  color:rgb(252, 250, 250);
+  transform: translate(500px,130px);
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-group img {
+  opacity: 0.8;
+}
+
+.small-img-group img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.small-img-col {
+  border: 2px solid rgb(216, 216, 216);
+  width: 100%;
+  cursor: pointer;
+}
+
+/*đổi màu nền*/
+.color {
+  display: table-cell;
+  width: 60px;
+  height: 50px;
+  margin: 0 1px;
+  cursor: pointer;
+  border: 2px solid rgb(226, 226, 226);
+
+}
+
+.bg-color {
+  width: fit-content;
+}
+
+.bg-color button {
+  opacity: 0.9;
+}
+
+.bg-color button:hover{
+  opacity: 1;
+}
+
+.clr1 {
+  background-color: #191919;
+}
+
+.clr2 {
+  background-color: #05acbe;
+}
+
+.clr3 {
+  background-color: #e9a0bb;
+}
+
+.clr4 {
+  background-color: #ca1d21;
+}
+
+.clr5 {
+  background-color: #dc9a05;
+}
+
+.clr6 {
+  background-color: #ff5150;
+}
+
+.clr7 {
+  background-color: #0f326c;
+}
+
+.clr8 {
+  background-color: #545454;
+}
+
+h5 {
+  margin: 5px;
+  padding-bottom: 5px;
+}
+
+.addressCard input {
+  width: max-content;
+}
